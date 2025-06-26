@@ -1,6 +1,8 @@
 import React from 'react'
 import Poster from './Poster.svg'
 import Both from '../assets/Both.svg'
+import Background from '../assets/Background.svg';
+
 
 const header = () => {
   return (
@@ -15,7 +17,7 @@ const header = () => {
             
          </ul>
          <div className="bg-cover bg-center h-174 w-full mt-[50px]"
-        style={{ backgroundImage: "url('/src/assets/Background.svg')" }}>
+        style={{ backgroundImage: `url(${Background})` }}>
             <p className='text-white text-[25px] flex justify-center pt-[50px] font-medium'>Food app</p>
             <p className='text-white text-[55px] flex justify-center pt-[50px] text-center font-medium'>Why stay hungry when <br />
              you can order form Bella Onojie</p>
